@@ -11,13 +11,13 @@
   <h2>Sintaxe da Linguagem DAS</h2>
   <p>A linguagem de programação DAS possui as seguintes estruturas de controle:</p>
 
-  <h3>Input and Output Commands</h3>
+  <h3>Input e Output Commands</h3>
   <pre><code>
     write "message";
     read variable;
   </code></pre>
 
-  <p>If the input does not respect the type, a loop starts to verify the type until the type is correct.</p>
+  <p>Se o input não respeitar o tipo, um loop começa a verificar o tipo até que ele esteja correto.</p>
 
   <h3>FOR loop</h3>
   <pre><code>
@@ -40,7 +40,7 @@
     } while(condition);
   </code></pre>
 
-  <h3>IF-ELSE decision structure</h3>
+  <h3>estrutura de decisão IF-ELSE</h3>
   <pre><code>
     if(condition){
     //code block
@@ -49,7 +49,7 @@
     }
   </code></pre>
 
-  <h2>Example of DAS Language Program</h2>
+  <h2>Exemplo de um programa na linguagem DAS</h2>
   <pre><code>
 function multiplicacao(num1, num2,num3){
     write num1 * num2 / num3;
@@ -131,7 +131,7 @@ if (x > y) then {
 }
   </code></pre>
 
-  <h2>Conclusion</h2>
+  <h2>Conclusão</h2>
  <h1 align="center">Relatório de Construção do DAS Compiler com ANTLR4</h1>
 <p align="justify">O processo de construção do DAS Compiler utilizando o ANTLR4 foi uma experiência robusta e esclarecedora. ANTLR (ANother Tool for Language Recognition) é uma ferramenta amplamente utilizada para gerar analisadores sintáticos a partir de gramáticas formais escritas em uma notação específica.</p>
     
